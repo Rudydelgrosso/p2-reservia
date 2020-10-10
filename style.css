@@ -1,0 +1,165 @@
+@font-face
+{
+    font-family: 'raleway';
+    src url('polices/raleway.eot');
+    src url('polices/raleway.eot?#iefix') format('embedded-opentype'),
+    src url('polices/raleway.woff') format('woff'),
+    src url('polices/raleway.ttf') format('truetype'),
+    src url('polices/raleway.svg#raleway') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    font-family: 'raleway', Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#bloc_page
+{
+    width: 100%;
+    margin: auto;
+}
+
+section h1, footer h1, nav a
+{
+    font-family: 'raleway', serif;
+    font-weight: 500;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50%;
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img
+{
+    width: 20%;
+}
+
+header h1
+{
+    font-family: 'raleway', serif;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+header h2
+{
+    font-family: 'raleway', serif;
+    font-size: 0.9em;
+    font-weight: 600;
+    margin-top: auto;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 50px;
+}
+
+nav a
+{
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+
+
+section
+{
+    display: flex;
+    margin-bottom: 75%;
+}
+
+article, aside
+{
+    text-align: justify
+}
+
+article
+{
+    margin-right: 20px;
+    flex: 3em;
+    position: static;
+    background-color: ghostwhite;
+    border-radius: 5px;
+    padding: 10px;
+    color: ghostwhite;
+    box-shadow: 0px 2px 5px; color: gray;
+}
+
+article img
+{
+    width: 30%;
+    height: 60%;
+    border-radius: 5px;
+}
+
+aside
+{
+    flex: 1em;
+    position: static;
+    background-color: ghostwhite;
+    border-radius: 5px;
+    padding: 10px;
+    color: ghostwhite;
+    box-shadow: 0px 2px 5px; color: gray;
+}
+
+aside img
+{
+    width: 50%;
+    height: 49%;
+    border-radius: 5px;
+}
+
+footer
+{
+    display: flex;
+    padding-top: 5%;
+    margin-bottom: 600px;
+    position: static;
+    background-color: ghostwhite;
+}
+
+footer p
+{
+    font-size: 0.8em;
+    margin-left: 100px;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-left: 100px;
+}
