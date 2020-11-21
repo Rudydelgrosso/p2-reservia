@@ -48,7 +48,7 @@ header
 {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: baseline;
 }
 
 #titre_principal
@@ -64,24 +64,18 @@ header
     align-items: baseline;
 }
 
-#logo img
-{
-    width: 20%;
-}
-
-header h1
+section h1
 {
     font-family: 'raleway', serif;
     font-size: 1.6em;
     font: weight 1000;
 }
 
-header h2
+section h2
 {
     font-family: 'raleway', serif;
     font-size: 1.2em;
     font-weight: 500;
-    margin-top: auto;
 }
 
 nav ul
