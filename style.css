@@ -64,17 +64,16 @@ header
     align-items: baseline;
 }
 
-section h1
+header h1
 {
     font-family: 'raleway', serif;
     font-size: 1.6em;
 }
 
-section h2
+header h2
 {
     font-family: 'raleway', serif;
-    font-size: 1.2em;
-    font-weight: 500;
+    font-size: 0.8em;
 }
 
 nav ul
