@@ -12,8 +12,10 @@
 
 body
 {
+    display: block;
     font-family: 'raleway', Arial, Helvetica, sans-serif;
     color: black;
+    margin: 8px;
 }
 
 #bloc_page
@@ -44,7 +46,7 @@ footer p
     margin-left: 300px;
 }
 
-header
+head
 {
     display: flex;
     justify-content: space-between;
@@ -64,13 +66,13 @@ header
     align-items: baseline;
 }
 
-header h1
+head h1
 {
-    font-family: 'raleway', serif;
-    font-size: 1.6em;
+    display: block;
+    font-size: 2em;
 }
 
-header h2
+head h2
 {
     font-family: 'raleway', serif;
     font-size: 0.8em;
