@@ -18,6 +18,11 @@ body
     margin: 8px;
 }
 
+#bloc_header
+{
+    float: right;
+}
+
 #bloc_page
 {
     width: 100%;
@@ -92,10 +97,9 @@ nav li
 
 nav a
 {
-    font-family: 'raleway', serif;
-    font-weight: 500;
     font-size: 1.1em;
     color: black;
+    padding-right: 20px;
     text-decoration: none;
 }
 
