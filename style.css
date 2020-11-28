@@ -51,7 +51,7 @@ footer p
     margin-left: 300px;
 }
 
-head
+header
 {
     display: flex;
     justify-content: space-between;
@@ -71,13 +71,13 @@ head
     align-items: baseline;
 }
 
-head h1
+header h1
 {
     display: block;
     font-size: 2em;
 }
 
-head h2
+header h2
 {
     font-family: 'raleway', serif;
     font-size: 0.8em;
