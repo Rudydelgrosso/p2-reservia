@@ -29,28 +29,6 @@ body
     margin: auto;
 }
 
-footer
-{
-    display: flex;
-    padding-top: 5%;
-    margin-bottom: 500px;
-    position: static;
-    background: ghostwhite;
-}
-
-footer h1
-{
-    font-family: 'raleway', serif;
-    font-size: 1.2em;
-    font-weight: 900;
-    margin-left: 300px;
-}
-
-footer p
-{
-    margin-left: 300px;
-}
-
 header
 {
     display: flex;
@@ -104,12 +82,12 @@ nav ul li:hover
 section
 {
     display: flex;
-    margin-bottom: 70%;
+    margin-bottom: 20px;
 }
 
 article, aside
 {
-    text-align: left
+    text-align: justify;
 }
 
 article 
@@ -147,4 +125,26 @@ aside img
     width: 25%;
     height: 26%;
     border-radius: 5px;
+}
+
+footer
+{
+    display: flex;
+    padding-top: 5%;
+    margin-bottom: 500px;
+    position: static;
+    background: ghostwhite;
+}
+
+footer h1
+{
+    font-family: 'raleway', serif;
+    font-size: 1.2em;
+    font-weight: 900;
+    margin-left: 300px;
+}
+
+footer p
+{
+    margin-left: 300px;
 }
